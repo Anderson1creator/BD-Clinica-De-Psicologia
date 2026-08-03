@@ -550,12 +550,21 @@ export default function Estoque() {
                         </td>
 
                         <td className="p-4">
-                          <button
-                            onClick={() => editarProduto(produto)}
-                            className="bg-[#1d3557] text-white px-4 py-2 rounded-xl font-medium"
-                          >
-                            Editar
-                          </button>
+                          <div className="flex gap-2">
+                            <button
+                              onClick={() => editarProduto(produto)}
+                              className="bg-[#1d3557] text-white px-4 py-2 rounded-xl font-medium"
+                            >
+                              Editar
+                            </button>
+
+                            <button
+                              onClick={() => excluirProduto(produto.id_produto)}
+                              className="bg-red-500 text-white px-4 py-2 rounded-xl font-medium hover:bg-red-600 transition"
+                            >
+                              Excluir
+                            </button>
+                          </div>
                         </td>
                       </tr>
                     );

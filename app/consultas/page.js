@@ -706,7 +706,7 @@ export default function Consultas() {
               </p>
             </div>
 
-            <div className="overflow-x-auto overflow-x-auto">
+            <div className="overflow-x-auto">
               <table className="w-full min-w-[1100px]">
                 <thead className="bg-[#f3f1eb] text-[#1d3557]">
                   <tr>

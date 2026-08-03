@@ -60,8 +60,6 @@ export default function Sidebar() {
 
   const linksPaciente = [
     { href: "/cliente", label: "Minha área", icon: User },
-    { href: "/cliente", label: "Minhas consultas", icon: CalendarDays },
-    { href: "/cliente", label: "Alterar senha", icon: KeyRound },
   ];
 
   const links = tipoUsuario === "paciente" ? linksPaciente : linksAdmin;
@@ -73,7 +71,7 @@ export default function Sidebar() {
 
   function abrirSuporte() {
     window.open(
-      "https://wa.me/5581999999999?text=Olá,%20preciso%20de%20suporte%20no%20sistema%20da%20clínica.",
+      "https://wa.me/5581999875045?text=Olá,%20preciso%20de%20suporte%20no%20sistema%20da%20clínica.",
       "_blank"
     );
   }
